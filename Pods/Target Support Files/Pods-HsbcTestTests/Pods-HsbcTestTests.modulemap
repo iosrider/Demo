@@ -1,0 +1,6 @@
+framework module Pods_HsbcTestTests {
+  umbrella header "Pods-HsbcTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

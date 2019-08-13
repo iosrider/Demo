@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C1DDB6776F5FFD719D9FDCE /* Pods_HsbcTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F3DCCFDFFA00EDA629185D /* Pods_HsbcTest.framework */; };
+		82B5CAA723031FA4009CD94D /* Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B5CAA623031FA4009CD94D /* Bridging.m */; };
+		82CD28CD22FED15C00E0A349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD28CC22FED15C00E0A349 /* AppDelegate.swift */; };
+		82CD28CF22FED15C00E0A349 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD28CE22FED15C00E0A349 /* SignInController.swift */; };
+		82CD28D222FED15C00E0A349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CD28D022FED15C00E0A349 /* Main.storyboard */; };
+		82CD28D422FED15D00E0A349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CD28D322FED15D00E0A349 /* Assets.xcassets */; };
+		82CD28D722FED15D00E0A349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CD28D522FED15D00E0A349 /* LaunchScreen.storyboard */; };
+		82CD28E222FED15D00E0A349 /* HsbcTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD28E122FED15D00E0A349 /* HsbcTestTests.swift */; };
+		82CD28ED22FED15D00E0A349 /* HsbcTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD28EC22FED15D00E0A349 /* HsbcTestUITests.swift */; };
+		82CD290022FFF8E300E0A349 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD28FF22FFF8E300E0A349 /* LoginViewModel.swift */; };
+		82CD290322FFFD5700E0A349 /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD290222FFFD5700E0A349 /* BindingTextField.swift */; };
+		82CD29062300818200E0A349 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD29052300818200E0A349 /* WebServices.swift */; };
+		82CD290B23008BF200E0A349 /* BooksListingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD290A23008BF200E0A349 /* BooksListingController.swift */; };
+		82CD290F23008DDD00E0A349 /* BooksListingCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD290D23008DDD00E0A349 /* BooksListingCell1.swift */; };
+		82CD291023008DDD00E0A349 /* BooksListingCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82CD290E23008DDD00E0A349 /* BooksListingCell1.xib */; };
+		82CD2913230094D100E0A349 /* BooksListingCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD2911230094D100E0A349 /* BooksListingCell2.swift */; };
+		82CD2914230094D100E0A349 /* BooksListingCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82CD2912230094D100E0A349 /* BooksListingCell2.xib */; };
+		82CD29162300A34A00E0A349 /* BooksListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CD29152300A34A00E0A349 /* BooksListingViewModel.swift */; };
+		82F7C55223015D1900DC2F85 /* AddNewBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7C55123015D1900DC2F85 /* AddNewBookController.swift */; };
+		82F7C55423016CAA00DC2F85 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7C55323016CAA00DC2F85 /* Helper.swift */; };
+		82F7C55623017E4C00DC2F85 /* AddBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7C55523017E4C00DC2F85 /* AddBookViewModel.swift */; };
+		B8FAE97638E9042EC0BD77F2 /* Pods_HsbcTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FFC520B7E718784C4DC530 /* Pods_HsbcTestUITests.framework */; };
+		F6C8BDBD24BE88C98DDEE901 /* Pods_HsbcTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE099288759AE35F5FA1BBD4 /* Pods_HsbcTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82CD28DE22FED15D00E0A349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82CD28C122FED15C00E0A349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82CD28C822FED15C00E0A349;
+			remoteInfo = HsbcTest;
+		};
+		82CD28E922FED15D00E0A349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82CD28C122FED15C00E0A349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82CD28C822FED15C00E0A349;
+			remoteInfo = HsbcTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19AEC132FF7605828A67798E /* Pods-HsbcTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsbcTestTests.debug.xcconfig"; path = "Target Support Files/Pods-HsbcTestTests/Pods-HsbcTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		254577B2791E4778E08663F4 /* Pods-HsbcTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsbcTestTests.release.xcconfig"; path = "Target Support Files/Pods-HsbcTestTests/Pods-HsbcTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		43FFC520B7E718784C4DC530 /* Pods_HsbcTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HsbcTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		751DB292663ACADB927797C6 /* Pods-HsbcTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsbcTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-HsbcTestUITests/Pods-HsbcTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76F3DCCFDFFA00EDA629185D /* Pods_HsbcTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HsbcTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78633C69F3DA188D381C67ED /* Pods-HsbcTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsbcTestUITests.release.xcconfig"; path = "Target Support Files/Pods-HsbcTestUITests/Pods-HsbcTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82B5CAA523031FA4009CD94D /* HsbcTestTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HsbcTestTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		82B5CAA623031FA4009CD94D /* Bridging.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bridging.m; sourceTree = "<group>"; };
+		82CD28C922FED15C00E0A349 /* HsbcTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HsbcTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CD28CC22FED15C00E0A349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82CD28CE22FED15C00E0A349 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		82CD28D122FED15C00E0A349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82CD28D322FED15D00E0A349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82CD28D622FED15D00E0A349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82CD28D822FED15D00E0A349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CD28DD22FED15D00E0A349 /* HsbcTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HsbcTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CD28E122FED15D00E0A349 /* HsbcTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HsbcTestTests.swift; sourceTree = "<group>"; };
+		82CD28E322FED15D00E0A349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CD28E822FED15D00E0A349 /* HsbcTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HsbcTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CD28EC22FED15D00E0A349 /* HsbcTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HsbcTestUITests.swift; sourceTree = "<group>"; };
+		82CD28EE22FED15D00E0A349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CD28FF22FFF8E300E0A349 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		82CD290222FFFD5700E0A349 /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
+		82CD29052300818200E0A349 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		82CD290A23008BF200E0A349 /* BooksListingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListingController.swift; sourceTree = "<group>"; };
+		82CD290D23008DDD00E0A349 /* BooksListingCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListingCell1.swift; sourceTree = "<group>"; };
+		82CD290E23008DDD00E0A349 /* BooksListingCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BooksListingCell1.xib; sourceTree = "<group>"; };
+		82CD2911230094D100E0A349 /* BooksListingCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListingCell2.swift; sourceTree = "<group>"; };
+		82CD2912230094D100E0A349 /* BooksListingCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BooksListingCell2.xib; sourceTree = "<group>"; };
+		82CD29152300A34A00E0A349 /* BooksListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListingViewModel.swift; sourceTree = "<group>"; };
+		82F7C55123015D1900DC2F85 /* AddNewBookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBookController.swift; sourceTree = "<group>"; };
+		82F7C55323016CAA00DC2F85 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		82F7C55523017E4C00DC2F85 /* AddBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookViewModel.swift; sourceTree = "<group>"; };
+		AE099288759AE35F5FA1BBD4 /* Pods_HsbcTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HsbcTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D654D723B0E5DB8FF8E00E85 /* Pods-HsbcTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsbcTest.release.xcconfig"; path = "Target Support Files/Pods-HsbcTest/Pods-HsbcTest.release.xcconfig"; sourceTree = "<group>"; };
+		F00CBCDE3ABEBD17C430075A /* Pods-HsbcTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HsbcTest.debug.xcconfig"; path = "Target Support Files/Pods-HsbcTest/Pods-HsbcTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82CD28C622FED15C00E0A349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1DDB6776F5FFD719D9FDCE /* Pods_HsbcTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CD28DA22FED15D00E0A349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C8BDBD24BE88C98DDEE901 /* Pods_HsbcTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CD28E522FED15D00E0A349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FAE97638E9042EC0BD77F2 /* Pods_HsbcTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82CD28C022FED15C00E0A349 = {
+			isa = PBXGroup;
+			children = (
+				82CD28CB22FED15C00E0A349 /* HsbcTest */,
+				82CD28E022FED15D00E0A349 /* HsbcTestTests */,
+				82CD28EB22FED15D00E0A349 /* HsbcTestUITests */,
+				82CD28CA22FED15C00E0A349 /* Products */,
+				ADB6C5E1DF5062DA7E7DBFDE /* Pods */,
+				FF9D95C8E76FE75576CD1033 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82CD28CA22FED15C00E0A349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82CD28C922FED15C00E0A349 /* HsbcTest.app */,
+				82CD28DD22FED15D00E0A349 /* HsbcTestTests.xctest */,
+				82CD28E822FED15D00E0A349 /* HsbcTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82CD28CB22FED15C00E0A349 /* HsbcTest */ = {
+			isa = PBXGroup;
+			children = (
+				82CD290723008B9200E0A349 /* 03 BooksListing */,
+				82CD29042300816A00E0A349 /* ServiceLayer */,
+				82CD290122FFFD3000E0A349 /* CustomControls */,
+				82CD28FE22FED34B00E0A349 /* View */,
+				82CD28FB22FED29D00E0A349 /* 02 LogIn */,
+				82CD28FA22FED28700E0A349 /* 01 AppDelegate */,
+				82CD28D322FED15D00E0A349 /* Assets.xcassets */,
+				82CD28D522FED15D00E0A349 /* LaunchScreen.storyboard */,
+				82CD28D822FED15D00E0A349 /* Info.plist */,
+			);
+			path = HsbcTest;
+			sourceTree = "<group>";
+		};
+		82CD28E022FED15D00E0A349 /* HsbcTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				82CD28E122FED15D00E0A349 /* HsbcTestTests.swift */,
+				82CD28E322FED15D00E0A349 /* Info.plist */,
+				82B5CAA623031FA4009CD94D /* Bridging.m */,
+				82B5CAA523031FA4009CD94D /* HsbcTestTests-Bridging-Header.h */,
+			);
+			path = HsbcTestTests;
+			sourceTree = "<group>";
+		};
+		82CD28EB22FED15D00E0A349 /* HsbcTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82CD28EC22FED15D00E0A349 /* HsbcTestUITests.swift */,
+				82CD28EE22FED15D00E0A349 /* Info.plist */,
+			);
+			path = HsbcTestUITests;
+			sourceTree = "<group>";
+		};
+		82CD28FA22FED28700E0A349 /* 01 AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				82CD28CC22FED15C00E0A349 /* AppDelegate.swift */,
+			);
+			path = "01 AppDelegate";
+			sourceTree = "<group>";
+		};
+		82CD28FB22FED29D00E0A349 /* 02 LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				82CD28FD22FED33800E0A349 /* ViewModel */,
+				82CD28FC22FED33000E0A349 /* Controller */,
+			);
+			path = "02 LogIn";
+			sourceTree = "<group>";
+		};
+		82CD28FC22FED33000E0A349 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82CD28CE22FED15C00E0A349 /* SignInController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		82CD28FD22FED33800E0A349 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82CD28FF22FFF8E300E0A349 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82CD28FE22FED34B00E0A349 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82CD28D022FED15C00E0A349 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82CD290122FFFD3000E0A349 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				82CD290222FFFD5700E0A349 /* BindingTextField.swift */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		82CD29042300816A00E0A349 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				82CD29052300818200E0A349 /* WebServices.swift */,
+				82F7C55323016CAA00DC2F85 /* Helper.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		82CD290723008B9200E0A349 /* 03 BooksListing */ = {
+			isa = PBXGroup;
+			children = (
+				82CD290C23008DB000E0A349 /* CustomCell */,
+				82CD290923008BCB00E0A349 /* ViewModel */,
+				82CD290823008BBF00E0A349 /* Controllers */,
+			);
+			path = "03 BooksListing";
+			sourceTree = "<group>";
+		};
+		82CD290823008BBF00E0A349 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82CD290A23008BF200E0A349 /* BooksListingController.swift */,
+				82F7C55123015D1900DC2F85 /* AddNewBookController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		82CD290923008BCB00E0A349 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82CD29152300A34A00E0A349 /* BooksListingViewModel.swift */,
+				82F7C55523017E4C00DC2F85 /* AddBookViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82CD290C23008DB000E0A349 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				82CD290D23008DDD00E0A349 /* BooksListingCell1.swift */,
+				82CD290E23008DDD00E0A349 /* BooksListingCell1.xib */,
+				82CD2911230094D100E0A349 /* BooksListingCell2.swift */,
+				82CD2912230094D100E0A349 /* BooksListingCell2.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		ADB6C5E1DF5062DA7E7DBFDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F00CBCDE3ABEBD17C430075A /* Pods-HsbcTest.debug.xcconfig */,
+				D654D723B0E5DB8FF8E00E85 /* Pods-HsbcTest.release.xcconfig */,
+				19AEC132FF7605828A67798E /* Pods-HsbcTestTests.debug.xcconfig */,
+				254577B2791E4778E08663F4 /* Pods-HsbcTestTests.release.xcconfig */,
+				751DB292663ACADB927797C6 /* Pods-HsbcTestUITests.debug.xcconfig */,
+				78633C69F3DA188D381C67ED /* Pods-HsbcTestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF9D95C8E76FE75576CD1033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76F3DCCFDFFA00EDA629185D /* Pods_HsbcTest.framework */,
+				AE099288759AE35F5FA1BBD4 /* Pods_HsbcTestTests.framework */,
+				43FFC520B7E718784C4DC530 /* Pods_HsbcTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82CD28C822FED15C00E0A349 /* HsbcTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CD28F122FED15D00E0A349 /* Build configuration list for PBXNativeTarget "HsbcTest" */;
+			buildPhases = (
+				6A775AC1F6B7EB15B6C8F43B /* [CP] Check Pods Manifest.lock */,
+				82CD28C522FED15C00E0A349 /* Sources */,
+				82CD28C622FED15C00E0A349 /* Frameworks */,
+				82CD28C722FED15C00E0A349 /* Resources */,
+				C1CC394805F078BE6DC96099 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HsbcTest;
+			productName = HsbcTest;
+			productReference = 82CD28C922FED15C00E0A349 /* HsbcTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82CD28DC22FED15D00E0A349 /* HsbcTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CD28F422FED15D00E0A349 /* Build configuration list for PBXNativeTarget "HsbcTestTests" */;
+			buildPhases = (
+				1B1B760BCAC2141DD0B4C255 /* [CP] Check Pods Manifest.lock */,
+				82CD28D922FED15D00E0A349 /* Sources */,
+				82CD28DA22FED15D00E0A349 /* Frameworks */,
+				82CD28DB22FED15D00E0A349 /* Resources */,
+				1FD64EA1714ED65D9270C084 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82CD28DF22FED15D00E0A349 /* PBXTargetDependency */,
+			);
+			name = HsbcTestTests;
+			productName = HsbcTestTests;
+			productReference = 82CD28DD22FED15D00E0A349 /* HsbcTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82CD28E722FED15D00E0A349 /* HsbcTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CD28F722FED15D00E0A349 /* Build configuration list for PBXNativeTarget "HsbcTestUITests" */;
+			buildPhases = (
+				22305B04E13FC841DCA77F20 /* [CP] Check Pods Manifest.lock */,
+				82CD28E422FED15D00E0A349 /* Sources */,
+				82CD28E522FED15D00E0A349 /* Frameworks */,
+				82CD28E622FED15D00E0A349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82CD28EA22FED15D00E0A349 /* PBXTargetDependency */,
+			);
+			name = HsbcTestUITests;
+			productName = HsbcTestUITests;
+			productReference = 82CD28E822FED15D00E0A349 /* HsbcTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82CD28C122FED15C00E0A349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ankit Vyas";
+				TargetAttributes = {
+					82CD28C822FED15C00E0A349 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					82CD28DC22FED15D00E0A349 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+						TestTargetID = 82CD28C822FED15C00E0A349;
+					};
+					82CD28E722FED15D00E0A349 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 82CD28C822FED15C00E0A349;
+					};
+				};
+			};
+			buildConfigurationList = 82CD28C422FED15C00E0A349 /* Build configuration list for PBXProject "HsbcTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82CD28C022FED15C00E0A349;
+			productRefGroup = 82CD28CA22FED15C00E0A349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82CD28C822FED15C00E0A349 /* HsbcTest */,
+				82CD28DC22FED15D00E0A349 /* HsbcTestTests */,
+				82CD28E722FED15D00E0A349 /* HsbcTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82CD28C722FED15C00E0A349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CD28D722FED15D00E0A349 /* LaunchScreen.storyboard in Resources */,
+				82CD28D422FED15D00E0A349 /* Assets.xcassets in Resources */,
+				82CD2914230094D100E0A349 /* BooksListingCell2.xib in Resources */,
+				82CD28D222FED15C00E0A349 /* Main.storyboard in Resources */,
+				82CD291023008DDD00E0A349 /* BooksListingCell1.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CD28DB22FED15D00E0A349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CD28E622FED15D00E0A349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B1B760BCAC2141DD0B4C255 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HsbcTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FD64EA1714ED65D9270C084 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HsbcTestTests/Pods-HsbcTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HsbcTestTests/Pods-HsbcTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HsbcTestTests/Pods-HsbcTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22305B04E13FC841DCA77F20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HsbcTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A775AC1F6B7EB15B6C8F43B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HsbcTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1CC394805F078BE6DC96099 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HsbcTest/Pods-HsbcTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HsbcTest/Pods-HsbcTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HsbcTest/Pods-HsbcTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82CD28C522FED15C00E0A349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F7C55423016CAA00DC2F85 /* Helper.swift in Sources */,
+				82F7C55623017E4C00DC2F85 /* AddBookViewModel.swift in Sources */,
+				82CD28CF22FED15C00E0A349 /* SignInController.swift in Sources */,
+				82CD290B23008BF200E0A349 /* BooksListingController.swift in Sources */,
+				82CD29162300A34A00E0A349 /* BooksListingViewModel.swift in Sources */,
+				82F7C55223015D1900DC2F85 /* AddNewBookController.swift in Sources */,
+				82CD290F23008DDD00E0A349 /* BooksListingCell1.swift in Sources */,
+				82CD29062300818200E0A349 /* WebServices.swift in Sources */,
+				82CD2913230094D100E0A349 /* BooksListingCell2.swift in Sources */,
+				82CD290322FFFD5700E0A349 /* BindingTextField.swift in Sources */,
+				82CD28CD22FED15C00E0A349 /* AppDelegate.swift in Sources */,
+				82CD290022FFF8E300E0A349 /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CD28D922FED15D00E0A349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CD28E222FED15D00E0A349 /* HsbcTestTests.swift in Sources */,
+				82B5CAA723031FA4009CD94D /* Bridging.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CD28E422FED15D00E0A349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CD28ED22FED15D00E0A349 /* HsbcTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82CD28DF22FED15D00E0A349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82CD28C822FED15C00E0A349 /* HsbcTest */;
+			targetProxy = 82CD28DE22FED15D00E0A349 /* PBXContainerItemProxy */;
+		};
+		82CD28EA22FED15D00E0A349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82CD28C822FED15C00E0A349 /* HsbcTest */;
+			targetProxy = 82CD28E922FED15D00E0A349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82CD28D022FED15C00E0A349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CD28D122FED15C00E0A349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82CD28D522FED15D00E0A349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CD28D622FED15D00E0A349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82CD28EF22FED15D00E0A349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82CD28F022FED15D00E0A349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82CD28F222FED15D00E0A349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00CBCDE3ABEBD17C430075A /* Pods-HsbcTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HsbcTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtc.digitalhabitat.HsbcTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82CD28F322FED15D00E0A349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D654D723B0E5DB8FF8E00E85 /* Pods-HsbcTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HsbcTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtc.digitalhabitat.HsbcTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82CD28F522FED15D00E0A349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AEC132FF7605828A67798E /* Pods-HsbcTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HsbcTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtc.digitalhabitat.HsbcTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HsbcTestTests/HsbcTestTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HsbcTest.app/HsbcTest";
+			};
+			name = Debug;
+		};
+		82CD28F622FED15D00E0A349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254577B2791E4778E08663F4 /* Pods-HsbcTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HsbcTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtc.digitalhabitat.HsbcTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HsbcTestTests/HsbcTestTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HsbcTest.app/HsbcTest";
+			};
+			name = Release;
+		};
+		82CD28F822FED15D00E0A349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751DB292663ACADB927797C6 /* Pods-HsbcTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HsbcTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtc.digitalhabitat.HsbcTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HsbcTest;
+			};
+			name = Debug;
+		};
+		82CD28F922FED15D00E0A349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78633C69F3DA188D381C67ED /* Pods-HsbcTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HsbcTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtc.digitalhabitat.HsbcTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HsbcTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82CD28C422FED15C00E0A349 /* Build configuration list for PBXProject "HsbcTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CD28EF22FED15D00E0A349 /* Debug */,
+				82CD28F022FED15D00E0A349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CD28F122FED15D00E0A349 /* Build configuration list for PBXNativeTarget "HsbcTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CD28F222FED15D00E0A349 /* Debug */,
+				82CD28F322FED15D00E0A349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CD28F422FED15D00E0A349 /* Build configuration list for PBXNativeTarget "HsbcTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CD28F522FED15D00E0A349 /* Debug */,
+				82CD28F622FED15D00E0A349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CD28F722FED15D00E0A349 /* Build configuration list for PBXNativeTarget "HsbcTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CD28F822FED15D00E0A349 /* Debug */,
+				82CD28F922FED15D00E0A349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82CD28C122FED15C00E0A349 /* Project object */;
+}
